@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "ariferda-trainplat_jd385"
+name = "ariferda-tensor_parallel_split_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出大模型训练平台工程师·张量并行切分策略上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://ariferda.github.io"
-Repository = "https://github.com/ariferda/trainplat_jd385"
-Issues = "https://github.com/ariferda/trainplat_jd385/issues"
+Repository = "https://github.com/ariferda/tensor_parallel_split_grouping"
+Issues = "https://github.com/ariferda/tensor_parallel_split_grouping/issues"
 
 [project.scripts]
-trainplat_jd385 = "trainplat_jd385:main"
+tensor_parallel_split_grouping = "tensor_parallel_split_grouping:main"
 
 [tool.setuptools]
-py-modules = ["trainplat_jd385"]
+py-modules = ["tensor_parallel_split_grouping"]
